@@ -1,3 +1,3 @@
 <?php 
-	require 'header.php';
+	require 'views/header.php';
 ?>
