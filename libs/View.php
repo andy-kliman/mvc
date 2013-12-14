@@ -7,7 +7,7 @@
 			echo 'Это View';
 		}
 
-		publiс function render($name) {
+		public function render($name) {
 			require 'views' . $name .'.php';
 		}
 	}
