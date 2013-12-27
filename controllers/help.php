@@ -12,6 +12,9 @@ class Help extends Controller {
 	{
 		echo 'Мы внутри other<br />';
 		echo 'Опционально:' . $arg . '<br />';
+
+		require 'models/help_model.php';
+		$model = new Help_Model();
 	}
 }
 

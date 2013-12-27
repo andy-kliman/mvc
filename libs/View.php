@@ -8,7 +8,7 @@
 		}
 
 		public function render($name) {
-			require 'views' . $name .'.php';
+			require 'views/' . $name .'.php';
 		}
 	}
 
