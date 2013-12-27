@@ -4,7 +4,7 @@
 		
 		function __construct()
 		{
-			echo 'Это View';
+			echo 'Это ВИД<br />';
 		}
 
 		public function render($name) {
