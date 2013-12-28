@@ -1,5 +1,5 @@
 <?php require 'views/header.php'; ?>
 
-<?php echo $this->msg; ?>
+Добро пожаловать на главную страницу!
 
 <?php require 'views/footer.php'; ?>
