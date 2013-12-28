@@ -2,14 +2,13 @@
 	
 	class Error extends Controller {
 		
-		function __construct()
-		{
+		function __construct() {
 			parent::__construct();
-			echo "Упс, ошибка";
+		}
 
+		function index() {
 			$this->view->msg = 'Эта страница не существует';
 			$this->view->render('error/index');
 		}
-	}
 
 ?>
