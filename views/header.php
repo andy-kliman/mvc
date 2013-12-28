@@ -3,11 +3,16 @@
 <head>
 	<title>ТЕСТ</title>
 	<link rel="stylesheet" href="public/css/default.css" />
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 </head>
 <body>
 
 <div id="header">
 	header
+	<br />
+	<a href="index">Главная</a>
+	<a href="help">Справка</a>
+	<a href="login">Войти</a>
 </div>
 
 <div id="content">

@@ -2,10 +2,10 @@
 
 class Help extends Controller {
 	
-	function __construct()
-	{
+	function __construct() {
 		parent::__construct();
-		echo 'Мы внутри help<br />'; 
+		$this->view->render('help/index');
+		// echo 'Мы внутри help<br />'; 
 	}
 
 	public function other($arg = false)
